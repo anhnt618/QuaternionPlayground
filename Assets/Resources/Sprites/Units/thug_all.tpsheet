@@ -1,0 +1,46 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# Sprite sheet: thug_all.png (512 x 512)
+# $TexturePacker:SmartUpdate:a0516f52649b8e746ac12445392f6785:9d9390973ffbb037a6460065a792bbd3:5e094c76d0990c6d4481556b2b18b032$
+#
+
+thug_walk_e_0000;2;466;64;44;0.5;0
+thug_walk_e_0001;68;466;64;44;0.5;0
+thug_walk_e_0002;134;466;64;44;0.5;0
+thug_walk_e_0003;200;466;64;44;0.5;0
+thug_walk_e_0004;266;466;64;44;0.5;0
+thug_walk_e_0005;332;466;64;44;0.5;0
+thug_walk_e_0006;398;466;64;44;0.5;0
+thug_walk_e_0007;2;420;64;44;0.5;0
+thug_walk_e_0008;2;374;64;44;0.5;0
+thug_walk_e_0009;2;328;64;44;0.5;0
+thug_walk_e_0010;2;282;64;44;0.5;0
+thug_walk_e_0011;2;236;64;44;0.5;0
+thug_walk_n_0000;2;190;64;44;0.5;0
+thug_walk_n_0001;2;144;64;44;0.5;0
+thug_walk_n_0002;2;98;64;44;0.5;0
+thug_walk_n_0003;2;52;64;44;0.5;0
+thug_walk_n_0004;2;6;64;44;0.5;0
+thug_walk_n_0005;68;420;64;44;0.5;0
+thug_walk_n_0006;134;420;64;44;0.5;0
+thug_walk_n_0007;200;420;64;44;0.5;0
+thug_walk_n_0008;266;420;64;44;0.5;0
+thug_walk_n_0009;332;420;64;44;0.5;0
+thug_walk_n_0010;398;420;64;44;0.5;0
+thug_walk_n_0011;68;374;64;44;0.5;0
+thug_walk_s_0000;134;374;64;44;0.5;0
+thug_walk_s_0001;200;374;64;44;0.5;0
+thug_walk_s_0002;266;374;64;44;0.5;0
+thug_walk_s_0003;332;374;64;44;0.5;0
+thug_walk_s_0004;398;374;64;44;0.5;0
+thug_walk_s_0005;68;328;64;44;0.5;0
+thug_walk_s_0006;68;282;64;44;0.5;0
+thug_walk_s_0007;68;236;64;44;0.5;0
+thug_walk_s_0008;68;190;64;44;0.5;0
+thug_walk_s_0009;68;144;64;44;0.5;0
+thug_walk_s_0010;68;98;64;44;0.5;0
+thug_walk_s_0011;68;52;64;44;0.5;0
