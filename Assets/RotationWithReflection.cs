@@ -8,7 +8,7 @@ namespace DefaultNamespace {
 
 		private void OnGUI() {
 			if (GUI.Button(new Rect(0, 0, 100, 100), "rotate")) {
-				Matrix4x4 m = Matrix4x4.TRS(Vector3.zero, transform.rotation, DetermineScale());
+				Matrix4x4 m = transform.localToWorldMatrix;
 				Vector3 rotatedCustomFoward = m * customForward;
 				Quaternion q = Quaternion.FromToRotation(rotatedCustomFoward, desiredForward);
 				transform.rotation = q;
@@ -28,7 +28,7 @@ namespace DefaultNamespace {
 
 			DrawVectorUnderRotation(transform.position, customForward, transform.rotation, "Quaternion Axis");
 
-			Matrix4x4 m = Matrix4x4.TRS(Vector3.zero, transform.rotation, DetermineScale());
+			Matrix4x4 m = transform.localToWorldMatrix;
 			DrawVectorUnderRotation(transform.position, customForward, m, "Matrix axis");
 			DrawVectorUnderRotation(transform.position, Vector3.forward, m, "Matrix forward");
 			DrawVectorUnderRotation(transform.position, Vector3.right, m, "Matrix right");
